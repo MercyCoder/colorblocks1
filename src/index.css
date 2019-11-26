@@ -14,11 +14,7 @@ ol, ul {
   content: "";
   display: inline-block;
 }
-.board-row:after {
-  clear: both;
-  content: "";
-  display: table;
-}
+
 
 .status {
   margin-bottom: 10px;
@@ -37,20 +33,10 @@ ol, ul {
   text-align: center;
   width: 100px;
 }
-.notsquare {
-  height: 100px;
-  width: 100px;
-}
+
 
 .kbd-navigation .square:focus {
   background: #ddd;
 }
 
-.game {
-  display: flex;
-  flex-direction: row;
-}
 
-.game-info {
-  margin-left: 20px;
-}
